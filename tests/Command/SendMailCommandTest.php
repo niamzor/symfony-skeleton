@@ -10,7 +10,7 @@ class SendMailCommandTest extends KernelTestCase
 {
     public function testExecute(): void
     {
-        $kernel = static::createKernel();
+        $kernel = static::bootKernel();
         $application = new Application($kernel);
 
         $command = $application->find('app:send-mail');
