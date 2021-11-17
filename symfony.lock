@@ -1,4 +1,41 @@
 {
+    "doctrine/annotations": {
+        "version": "1.13",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "a2759dd6123694c8d901d0ec80006e044c2e6457"
+        },
+        "files": [
+            "config/routes/annotations.yaml"
+        ]
+    },
+    "doctrine/lexer": {
+        "version": "1.2.1"
+    },
+    "nelmio/api-doc-bundle": {
+        "version": "4.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "c8e0c38e1a280ab9e37587a8fa32b251d5bc1c94"
+        },
+        "files": [
+            "config/packages/nelmio_api_doc.yaml",
+            "config/routes/nelmio_api_doc.yaml"
+        ]
+    },
+    "phpdocumentor/reflection-common": {
+        "version": "2.2.0"
+    },
+    "phpdocumentor/reflection-docblock": {
+        "version": "5.3.0"
+    },
+    "phpdocumentor/type-resolver": {
+        "version": "1.5.1"
+    },
     "psr/cache": {
         "version": "2.0.0"
     },
@@ -39,7 +76,7 @@
         "version": "v2.4.0"
     },
     "symfony/dotenv": {
-        "version": "5.4.x-dev"
+        "version": "v5.4.0-BETA1"
     },
     "symfony/error-handler": {
         "version": "5.4.x-dev"
@@ -96,6 +133,9 @@
     "symfony/http-kernel": {
         "version": "5.4.x-dev"
     },
+    "symfony/options-resolver": {
+        "version": "v5.4.0-BETA1"
+    },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.23.1"
     },
@@ -114,6 +154,9 @@
     "symfony/polyfill-php81": {
         "version": "v1.23.0"
     },
+    "symfony/property-info": {
+        "version": "v5.4.0-BETA1"
+    },
     "symfony/routing": {
         "version": "5.4",
         "recipe": {
@@ -128,7 +171,7 @@
         ]
     },
     "symfony/runtime": {
-        "version": "5.4.x-dev"
+        "version": "v5.4.0-BETA2"
     },
     "symfony/service-contracts": {
         "version": "v2.4.0"
@@ -144,5 +187,11 @@
     },
     "symfony/yaml": {
         "version": "5.4.x-dev"
+    },
+    "webmozart/assert": {
+        "version": "1.10.0"
+    },
+    "zircote/swagger-php": {
+        "version": "3.3.2"
     }
 }
